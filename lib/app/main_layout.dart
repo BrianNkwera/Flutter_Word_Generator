@@ -29,7 +29,7 @@ class _MainLayoutState extends State<MainLayout> {
     return ResponsiveLayout(
       mobileBody: Scaffold(
         appBar: AppBar(
-          title: const Text('App Settings'),
+          title: const Text('Random Word Generator'),
         ),
         body: AppNavigationConfig.items[_selectedIndex].page,
         bottomNavigationBar: AppBottomNavigationBar(
